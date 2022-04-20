@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Counters from "./Counters";
 
 function Counter(props) {
+  console.log(props);
   const [count, setCount] = useState(0);
 
   const handleClick2 = () => {
